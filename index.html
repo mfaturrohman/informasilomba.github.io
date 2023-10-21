@@ -1,143 +1,165 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="bootstrap-4.4.1/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <!-- icon -->
-    <link rel="stylesheet" type="text/css" href="fontawesome-free-5.15.3-web/css/all.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
-    <style type="text/css">
-      .gambar {
-        height: 30rem;
-      }
-      .jumbotron{
-        background-image: url(img/slider1.jpg);
-        background-size: cover;
-        text-align: center;
-      }
-      .jumbotron .display-4 {
-        color: white;
-        margin-top: 85px;
-      }
-      .jumbotron hr {
-        border-color: white;
-        width: 70px;
-        border-width: 3px;
-      }
-      .info{
-        margin-top: -30px;
-      }
-      .informasi{
-        border-color: red;
-        border-width: 5px;
-        width: 500px;
-        display: block;
-      }
-    </style>
-    <title>Informasi Lomba RPL dan MM</title>
-  </head>
-  <body id="rumah">
-    
-    <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
-      <div class="container">
-        <h3><i class="fas fa-search mr-2 text-white"></i></h3>
-        <a class="navbar-brand font-weight-bold text-white" href="#rumah">Informasi Lomba RPL dan MM</a>
-        <button class="navbar-toggler bg-light" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link text-white" href="#rumah">Beranda <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle text-white " href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Informasi Lomba
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="#informasi-lomba">UI Web</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#informasi-lomba">Desain</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#informasi-lomba">Fotografi</a>
-              </div>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link text-white" href="#kumpulan-lomba">Kumpulkan Lomba <span class="sr-only">(current)</span></a>
-            </li>
-          </ul>
-        </div>
-    </nav>
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="bootstrap-4.4.1/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <!-- icon -->
+  <link rel="stylesheet" type="text/css" href="fontawesome-free-5.15.3-web/css/all.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+    integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+  <style type="text/css">
+    .gambar {
+      height: 30rem;
+    }
+
+    .jumbotron {
+      background-image: url(img/slider1.jpg);
+      background-size: cover;
+      text-align: center;
+    }
+
+    .jumbotron .display-4 {
+      color: white;
+      margin-top: 85px;
+    }
+
+    .jumbotron hr {
+      border-color: white;
+      width: 70px;
+      border-width: 3px;
+    }
+
+    .info {
+      margin-top: -30px;
+    }
+
+    .informasi {
+      border-color: red;
+      border-width: 5px;
+      width: 500px;
+      display: block;
+    }
+  </style>
+  <title>Informasi Lomba RPL dan MM</title>
+</head>
+
+<body id="rumah">
+
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
+    <div class="container">
+      <h3><i class="fas fa-search mr-2 text-white"></i></h3>
+      <a class="navbar-brand font-weight-bold text-white" href="#rumah">Informasi Lomba RPL dan MM</a>
+      <button class="navbar-toggler bg-light" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link text-white" href="#rumah">Beranda <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white " href="#" id="navbarDropdownMenuLink" role="button"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Informasi Lomba
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#informasi-lomba">UI Web</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#informasi-lomba">Desain</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#informasi-lomba">Fotografi</a>
+            </div>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link text-white" href="#kumpulan-lomba">Kumpulkan Lomba <span
+                class="sr-only">(current)</span></a>
+          </li>
+        </ul>
+      </div>
+  </nav>
   </div>
 
-    <!-- Jumbotron -->
-    <div class="jumbotron">
-      <div class="container">
-        <h1 class="display-4">Selamat Datang!<br> <span class="font-weight-bold">Di Portal Informasi Lomba <br> RPL dan MM</span></h1>
-        <hr class="my-4">
-        <div class="text-light">
-          <p class="lead">Mata lomba UI Web, desain poster, Photograpy</p>
-        </div>
-        <div class="row">
-          <div class="col">
-            <a href="#informasi-lomba" class="btn btn-dark rounded-pill p-1 font-weight-bold mr-3"><h5><i class="fas fa-info-circle"></i> Informasi Lomba</h5></a>
-          </div>
-          <div class="col">
-            <a href="#kumpulan-lomba" class="btn btn-dark rounded-pill p-1 font-weight-bold mr-3"><h5><i class="fas fa-clipboard-check"></i> Kumpulkan Lomba</h5></a>
-          </div>
-        </div>    
-      </div>
-    </div>
-
-
-    <!-- Informasi Lomba -->
+  <!-- Jumbotron -->
+  <div class="jumbotron">
     <div class="container">
-      <h1 class="text-center mt-2" id="informasi-lomba">Informasi Lomba</h1>
+      <h1 class="display-4">Selamat Datang!<br> <span class="font-weight-bold">Di Portal Informasi Lomba <br> RPL dan
+          MM</span></h1>
+      <hr class="my-4">
+      <div class="text-light">
+        <p class="lead">Mata lomba UI Web, desain poster, Photograpy</p>
+      </div>
+      <div class="row">
+        <div class="col">
+          <a href="#informasi-lomba" class="btn btn-dark rounded-pill p-1 font-weight-bold mr-3">
+            <h5><i class="fas fa-info-circle"></i> Informasi Lomba</h5>
+          </a>
+        </div>
+        <div class="col">
+          <a href="#kumpulan-lomba" class="btn btn-dark rounded-pill p-1 font-weight-bold mr-3">
+            <h5><i class="fas fa-clipboard-check"></i> Kumpulkan Lomba</h5>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
 
-      <hr class="informasi">
 
-      <div class="row mt-4">
-        <div class="col-md">
-          <div class="card" style="width: 18rem;">
-            <div class="card-body">
-              <h5 class="card-title">UI Web</h5>
-              <p class="card-text">Lomba Desain UI Web.</p>
-              <a href="" class="btn btn-outline-secondary" data-toggle="modal" data-target="#ui-web"><b><i class="fas fa-info-circle"></i> Klik untuk detail lomba</b></a>
-            </div>
+  <!-- Informasi Lomba -->
+  <div class="container">
+    <h1 class="text-center mt-2" id="informasi-lomba">Informasi Lomba</h1>
+
+    <hr class="informasi">
+
+    <div class="row mt-4">
+      <div class="col-md">
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title">UI Web</h5>
+            <p class="card-text">Lomba Desain UI Web.</p>
+            <a href="" class="btn btn-outline-secondary" data-toggle="modal" data-target="#ui-web"><b><i
+                  class="fas fa-info-circle"></i> Klik untuk detail lomba</b></a>
           </div>
         </div>
+      </div>
 
-        <div class="col-md">
-          <div class="card" style="width: 18rem;">
-            <div class="card-body">
-              <h5 class="card-title">Poster</h5>
-              <p class="card-text">Lomba Desain Poster.</p>
-              <a href="" class="btn btn-outline-secondary" data-toggle="modal" data-target="#poster"><b><i class="fas fa-info-circle"></i> Klik untuk detail Lomba</b></a>
-            </div>
+      <div class="col-md">
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title">Poster</h5>
+            <p class="card-text">Lomba Desain Poster.</p>
+            <a href="" class="btn btn-outline-secondary" data-toggle="modal" data-target="#poster"><b><i
+                  class="fas fa-info-circle"></i> Klik untuk detail Lomba</b></a>
           </div>
         </div>
+      </div>
 
-        <div class="col-md">
-          <div class="card" style="width: 18rem;">
-            <div class="card-body">
-              <h5 class="card-title">Photograpy</h5>
-              <p class="card-text">Lomba Photograpy.</p>
-              <a href="" class="btn btn-outline-secondary" data-toggle="modal" data-target="#photografi"><b><i class="fas fa-info-circle"></i> Klik untuk detail lomba</b></a>
-            </div>
+      <div class="col-md">
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title">Photograpy</h5>
+            <p class="card-text">Lomba Photograpy.</p>
+            <a href="" class="btn btn-outline-secondary" data-toggle="modal" data-target="#photografi"><b><i
+                  class="fas fa-info-circle"></i> Klik untuk detail lomba</b></a>
           </div>
         </div>
       </div>
     </div>
-    <!--<a href="https://ibb.co/VjvTKKH"><img src="https://i.ibb.co/BzgB114/slider1.jpg" alt="slider1" border="0"></a>-->
+  </div>
+  <!--<a href="https://ibb.co/VjvTKKH"><img src="https://i.ibb.co/BzgB114/slider1.jpg" alt="slider1" border="0"></a>-->
 
   <!-- Modal Informasi Lomba-->
-  <div class="modal fade" id="ui-web" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal fade" id="ui-web" data-backdrop="static" tabindex="-1" role="dialog"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
@@ -149,17 +171,22 @@
         <div class="modal-body">
           <h6>Informasi Lomba</h6>
           <ol type="1">
-            <li>Membuat Website Seperti: <a href="http://fpsh-hamkotacirebon.epizy.com/" target="_blank">fpsh-hamkotacirebon.epizy.com/</a></li>
-            <li>Peserta membuat tampilan semenarik mungkin <b>asal tidak meleceng</b> dari <i>tema yang ditentukan yaitu online shop</i></li>
+            <li>Membuat Website Seperti: <a href="http://fpsh-hamkotacirebon.epizy.com/"
+                target="_blank">fpsh-hamkotacirebon.epizy.com/</a></li>
+            <li>Peserta membuat tampilan semenarik mungkin <b>asal tidak meleceng</b> dari <i>tema yang ditentukan yaitu
+                online shop</i></li>
             <li>Peserta boleh mengubah tata letak</li>
             <li>Desain UI wajib menggunakan caraousel</li>
             <li>Diperbolehkan menggunakan framework</li>
-            <li>Untuk Penunjang pembuatan website silahkan download di link berikut : <a href="https://drive.google.com/file/d/1Aed2eBMYdorkC4shYxin72egtN_5sCdv/view?usp=sharing" target="_blank">https://drive.google.com/file/d/1Aed2eBMYdorkC4shYxin72egtN_5sCdv/view?usp=sharing</a></li>
+            <li>Untuk Penunjang pembuatan website silahkan download di link berikut : <a
+                href="https://drive.google.com/file/d/1Aed2eBMYdorkC4shYxin72egtN_5sCdv/view?usp=sharing"
+                target="_blank">https://drive.google.com/file/d/1Aed2eBMYdorkC4shYxin72egtN_5sCdv/view?usp=sharing</a>
+            </li>
             <li>Untuk pengumpulan :</li>
-              <ul>
-                <li>Silahkan dikompres ke ZIP lalu upload ke google drive kalian dan kasihkan link nya ke kami</li>
-                <li>Ubah format nama menjadi : (nama kamu dan kelas)</li>
-              </ul>
+            <ul>
+              <li>Silahkan dikompres ke ZIP lalu upload ke google drive kalian dan kasihkan link nya ke kami</li>
+              <li>Ubah format nama menjadi : (nama kamu dan kelas)</li>
+            </ul>
           </ol>
         </div>
         <div class="modal-footer">
@@ -171,7 +198,8 @@
     </div>
   </div>
 
-  <div class="modal fade" id="poster" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal fade" id="poster" data-backdrop="static" tabindex="-1" role="dialog"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
@@ -184,16 +212,16 @@
           <h6>Informasi Lomba</h6>
           <ol type="1">
             <li>Buat desain poster dengan tema :</li>
-              <ul>
-                <li>Covid-19</li>
-                <li>17 agustusan</li>
-              </ul>
+            <ul>
+              <li>Covid-19</li>
+              <li>17 agustusan</li>
+            </ul>
             <li>Pilih salah satu</li>
             <li>Untuk pengumpulan :</li>
-              <ul>
-                <li>Silahkan dikompres ke ZIP lalu upload ke google drive kalian dan kasihkan link nya ke kami</li>
-                <li>Ubah format nama menjadi : (nama kamu dan kelas)</li>
-              </ul>
+            <ul>
+              <li>Silahkan dikompres ke ZIP lalu upload ke google drive kalian dan kasihkan link nya ke kami</li>
+              <li>Ubah format nama menjadi : (nama kamu dan kelas)</li>
+            </ul>
           </ol>
         </div>
         <div class="modal-footer">
@@ -205,7 +233,8 @@
     </div>
   </div>
 
-  <div class="modal fade" id="photografi" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal fade" id="photografi" data-backdrop="static" tabindex="-1" role="dialog"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
@@ -217,13 +246,14 @@
         <div class="modal-body">
           <h6>Informasi Lomba</h6>
           <ol type="1">
-            <li>Lomba Photography ini berupa foto pemandangan, ditentukan temanya ialah : Alam 17 Agustus, dan Sosial</li>
+            <li>Lomba Photography ini berupa foto pemandangan, ditentukan temanya ialah : Alam 17 Agustus, dan Sosial
+            </li>
             <li>Pilih salah satu</li>
             <li>Untuk pengumpulan :</li>
-              <ul>
-                <li>Silahkan dikompres ke ZIP lalu upload ke google drive kalian dan kasihkan link nya ke kami</li>
-                <li>Ubah format nama menjadi : (nama kamu dan kelas)</li>
-              </ul>
+            <ul>
+              <li>Silahkan dikompres ke ZIP lalu upload ke google drive kalian dan kasihkan link nya ke kami</li>
+              <li>Ubah format nama menjadi : (nama kamu dan kelas)</li>
+            </ul>
           </ol>
         </div>
         <div class="modal-footer">
@@ -237,16 +267,18 @@
 
   <!-- Pengumpulan -->
   <div class="container">
-      <h1 class="text-center mt-2" id="kumpulan-lomba">Kumpulkan Lomba</h1>
+    <h1 class="text-center mt-2" id="kumpulan-lomba">Kumpulkan Lomba</h1>
 
-      <hr class="informasi">
+    <hr class="informasi">
 
-      <a href="" data-toggle="modal" data-target="#kumpul" class="btn btn-outline-success btn-block font-weight-bold"><i class="fas fa-clipboard-check"></i> Kumpulkan Lomba</a>
+    <a href="" data-toggle="modal" data-target="#kumpul" class="btn btn-outline-success btn-block font-weight-bold"><i
+        class="fas fa-clipboard-check"></i> Kumpulkan Lomba</a>
 
   </div>
 
   <!-- modal pengumpulan -->
-  <div class="modal fade" id="kumpul" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal fade" id="kumpul" data-backdrop="static" tabindex="-1" role="dialog"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
@@ -259,12 +291,14 @@
           <h6>Informasi Pengumpulan Lomba</h6>
           <ol type="1">
             <li>Untuk pengumpulan :</li>
-              <ul>
-                <li>Silahkan dikompres ke ZIP lalu upload ke google drive kalian dan kasihkan link nya ke kami</li>
-                <li>Cara upload : <a href="https://inwepo.co/cara-upload-dan-berbagi-file-dari-google-drive-di-android/">https://inwepo.co/cara-upload-dan-berbagi-file-dari-google-drive-di-android/</a></li>
-                <li>Ubah link menjadi publik</li>
-                <li>Ubah format nama menjadi : (nama kamu dan kelas)</li>
-              </ul>
+            <ul>
+              <li>Silahkan dikompres ke ZIP lalu upload ke google drive kalian dan kasihkan link nya ke kami</li>
+              <li>Cara upload : <a
+                  href="https://inwepo.co/cara-upload-dan-berbagi-file-dari-google-drive-di-android/">https://inwepo.co/cara-upload-dan-berbagi-file-dari-google-drive-di-android/</a>
+              </li>
+              <li>Ubah link menjadi publik</li>
+              <li>Ubah format nama menjadi : (nama kamu dan kelas)</li>
+            </ul>
           </ol>
         </div>
         <div class="modal-footer">
@@ -278,16 +312,24 @@
 
   <!-- footer -->
   <footer class="bg-dark text-white p-3 mt-4 text-center">
-    Copyright &copy; <a href="https://www.instagram.com/mftr.355/" target="_blank" class="text-white">Muhammad Faturrohman</a>
+    Copyright &copy; <a href="https://www.instagram.com/mftr.355/" target="_blank" class="text-white">Muhammad
+      Faturrohman</a>
   </footer>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <!-- <script type="text/javascript" src="js/jquery-3.4.1.slim.min.js"></script>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <!-- <script type="text/javascript" src="js/jquery-3.4.1.slim.min.js"></script>
     <script type="text/javascript" src="js/popper.js@1.16.0.js"></script>
     <script type="text/javascript" src="bootstrap-4.4.1/dist/js/bootstrap.min.js"></script> -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-  </body>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>

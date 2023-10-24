@@ -5,7 +5,6 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="stylesheet" href="style.css">
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="bootstrap-4.4.1/dist/css/bootstrap.min.css">
@@ -16,10 +15,6 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
     integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
   <style type="text/css">
-    body {
-      font-family: Arial, Helvetica, sans-serif;
-    }
-
     .gambar {
       height: 30rem;
     }
@@ -316,8 +311,8 @@
 
   <!-- footer -->
   <footer class="bg-dark text-white p-3 mt-4 text-center">
-    Copyright &copy; <a href="https://www.instagram.com/mftr.355/" target="_blank" class="text-white">Muhammad
-      Faturrohman</a>
+    Copyright &copy; <span id="Year"></span> <a href="https://www.instagram.com/mftr.355/" target="_blank"
+      class="text-white">Muhammad Faturrohman</a>
   </footer>
 
   <!-- Optional JavaScript -->
@@ -334,6 +329,11 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
     integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
     crossorigin="anonymous"></script>
+  <script>
+    const d = new Date()
+    const y = d.getFullYear()
+    document.getElementById("Year").innerHTML = y
+  </script>
 </body>
 
 </html>
